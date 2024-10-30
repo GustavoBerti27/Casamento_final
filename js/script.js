@@ -141,3 +141,17 @@
 
         window.open(urlWhatsApp, '_blank');
     }
+
+
+function disableClickOnDado() {
+        // Seleciona todos os elementos com a classe 'dado'
+        const items = document.querySelectorAll('.dado');
+        
+        // Itera por cada item e desativa o clique
+        items.forEach(item => {
+            item.style.pointerEvents = 'none'; // Desativa a possibilidade de clique
+        });
+    }
+    
+    // Chame a função sempre que um item for marcado como 'dado'
+    disableClickOnDado();
