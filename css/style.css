@@ -455,3 +455,9 @@ body {
 .jose{
     color: #f50a0a;
 }
+
+.dado {
+    text-decoration: line-through;
+    color: #888; /* Cor opcional para dar um tom mais sutil */
+    font-style: italic; /* Opção para dar um estilo mais diferenciado */
+}
